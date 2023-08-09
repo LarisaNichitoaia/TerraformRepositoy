@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "tt-bucket" {
-  bucket = "tt-bucket"
+  bucket = var.bucket_name
 }
 
 resource "aws_s3_object" "my-first-obj" {
